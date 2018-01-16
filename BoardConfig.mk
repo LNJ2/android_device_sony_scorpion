@@ -15,6 +15,9 @@
 # inherit from the common shinano definitions
 include device/sony/scorpion_windy/BoardConfigCommon.mk
 
+# overwrite kernel config name
+TARGET_KERNEL_CONFIG := lineageos_shinano_scorpion_defconfig
+
 TARGET_SPECIFIC_HEADER_PATH += device/sony/scorpion/include
 
 # Assert
